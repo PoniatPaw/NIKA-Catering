@@ -1,3 +1,40 @@
+* {
+    box-sizing: border-box;
+}
 body {
     font-size: 16px;
+    
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    max-height: 60px;
+    width: 100%;
+    background-color: blanchedalmond;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar li {
+    padding-right: 15px;
+    font-size: 1.5rem;
+    list-style-type: none;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: black;
+}
+
+.logo {
+    
+    
 }
